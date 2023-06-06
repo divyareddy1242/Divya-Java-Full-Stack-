@@ -1,4 +1,10 @@
-public final class F1 {
+public  interface inf1
+{
+    public static void age()
+    {
+
+
+}
     protected final int age;
 
     public F1(int age)
