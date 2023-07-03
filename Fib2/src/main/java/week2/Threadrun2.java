@@ -1,4 +1,4 @@
-package week2;
+package main.java.week2;
 
 
 public class Threadrun2 implements Runnable

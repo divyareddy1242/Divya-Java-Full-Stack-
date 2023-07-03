@@ -1,4 +1,4 @@
-package week2;
+package main.java.week2;
 class InvalidAgeException  extends RuntimeException
 {
     public InvalidAgeException (String str)

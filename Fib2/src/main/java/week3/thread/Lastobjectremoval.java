@@ -1,3 +1,5 @@
+package main.java.week3.thread;
+
 import java.util.ArrayList;
 import java.util.Collections;
 

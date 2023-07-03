@@ -1,4 +1,4 @@
-package week3;
+package main.java.week3;
 import java.util.HashSet;
 import java.util.stream.Collectors;
 public class Hashsetimplementation {

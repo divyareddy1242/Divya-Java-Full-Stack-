@@ -1,4 +1,4 @@
-package week2;
+package main.java.week2;
 
 public class Arr1 {
     static int a[] = {10,20,30,40,50};

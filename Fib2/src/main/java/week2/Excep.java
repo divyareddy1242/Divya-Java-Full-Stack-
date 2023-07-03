@@ -1,4 +1,4 @@
-package week2;
+package main.java.week2;
 
 public class Excep {
     public static void stringtoint(String s2) {

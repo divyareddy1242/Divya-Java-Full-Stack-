@@ -1,4 +1,4 @@
-package week2;
+package main.java.week2;
 import java.util.*;
 public class Anagram {
     public static void main(String args[])

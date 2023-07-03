@@ -3,31 +3,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-class Student {
-    private String firstName;
-    private String lastName;
-    private double gpa;
-
-    public Student(String firstName, String lastName, double gpa) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.gpa = gpa;
-    }
-
-    public double getGpa() {
-        return gpa;
-    }
-
-    @Override
-    public String toString() {
-        return "Student{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", gpa=" + gpa +
-                '}';
-    }
-}
-
 public class RemoveStudentsBelowAverageGPA {
     public static void main(String[] args) {
         List<Student> studentList = new ArrayList<>();
@@ -56,6 +31,31 @@ public class RemoveStudentsBelowAverageGPA {
         System.out.println("Remaining students:");
         for (Student student : studentList) {
             System.out.println(student);
+        }
+    }
+
+    static class Student {
+        private String firstName;
+        private String lastName;
+        private double gpa;
+
+        public Student(String firstName, String lastName, double gpa) {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.gpa = gpa;
+        }
+
+        public double getGpa() {
+            return gpa;
+        }
+
+        @Override
+        public String toString() {
+            return "RemoveStudentsBelowAverageGPA.Student{" +
+                    "firstName='" + firstName + '\'' +
+                    ", lastName='" + lastName + '\'' +
+                    ", gpa=" + gpa +
+                    '}';
         }
     }
 }
